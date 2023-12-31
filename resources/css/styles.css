@@ -1,0 +1,71 @@
+/* public/css/custom-bootstrap.css */
+
+/* Gaya Umum */
+body {
+    background-color: #f8f9fa; /* Warna latar belakang */
+    font-family: "Arial", sans-serif; /* Gaya huruf */
+}
+
+.container {
+    max-width: 800px; /* Lebar kontainer */
+    margin: 50px auto; /* Jarak dari atas dan center kontainer */
+}
+
+/* Gaya Formulir */
+.form-container {
+    background-color: #ffffff; /* Warna latar belakang formulir */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+}
+
+.form-group {
+    margin-bottom: 20px; /* Jarak antar elemen formulir */
+}
+
+.form-label {
+    font-weight: bold;
+    color: #28a745; /* Warna label */
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ced4da; /* Warna garis bingkai input */
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Gaya Tombol */
+.btn-primary {
+    background-color: #28a745; /* Warna tombol hijau */
+    color: #ffffff; /* Warna teks tombol */
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #218838; /* Warna tombol hijau saat dihover */
+}
+
+/* Gaya Link dan Footer */
+.footer {
+    margin-top: 30px;
+    text-align: center;
+    color: #495057; /* Warna teks footer */
+}
+
+.footer a {
+    color: #28a745; /* Warna teks link di footer */
+}
+
+/* public/css/styles.css */
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+/* Tambahkan aturan gaya kustom lainnya di sini */
